@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/style_v2.css?v=18" rel="stylesheet" type="text/css">
+    <link href="/css/style_download.css?v=20" rel="stylesheet" type="text/css">
+</head>
+<body>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJ552JD" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<header>
+    <div class="frame">
+       <a href="/" style="text-decoration:none !important;color: #2c2d37;display: block">
+            <div  class="logo" title="minerstat"></div>
+            <div style="float: left;line-height: 85px;margin-left: 15px;font-size: 20px;font-weight: 300" lang-data-ht="AMining" ></div>
+        </a>
+        <div id="hamburger"></div>
+        <nav id="menu">
+        </nav>
+    </div>
+</header>
+<div class="myBghead">
+
+</div>
+<div class="my_Info_WK">
+    <div class="info_jdt_wk" id="stepHtml"></div>
+    <div class="info_msg">
+        <div class="my_x_t1">感谢您的安装</div>
+        <div class="button blue" id="configBtn" style="margin-top: 30px" lang-data-ht="Go to configuration">前往配置</div>
+        <div></div>
+        <div class="my_x_t2" style="display: none">开始前请完成最后的配置</div>
+        <div class="item_btn" style="display:none;"><div class="ir_tx1" lang-data-ht="Download not responding?">下载没有响应？</div><div class="button blue" lang-data-ht="Download">点击下载</div></div>
+    </div>
+    <div class="info_progress_wk" style="display:none;">
+        <div class="my_p_t1" lang-data-ht="AMining is performing installation, please wait...">A矿工正在执行安装，请稍后...</div>
+        <div class="step_num_wk">
+            <div class="step_t1">32%</div>
+            <div class="step_i" style="width: 30%"></div>
+        </div>
+    </div>
+    <div class="set_info_ip_wk" style="display: none">
+        <div class="set_input">
+            <div class="in_tx1" lang-data-ht="Please enter server IP address">请输入服务器Ip地址</div>
+            <input class="my_inptu_ip">
+            <div class="button blue" style="margin: 0 0 0 0;margin-left: 5px" lang-data-ht="Test connection">测试连接</div>
+        </div>
+        <div class="ip_txt" lang-data-ht="After configuration, the system will listen to and connect the miner through the server">配置后，系统会通过服务器监听并连接矿机</div>
+        <div class="button blue" style="margin-top: 30px" lang-data-ht="Determine configuration">确定配置</div>
+    </div>
+</div>
+<script>
+    [
+        "/js/jquery.js", "/js/templates/language.js", "/js/templates/global.js?v=24",'/js/templates/download.js'
+    ].forEach(function (src) {
+        var script = document.createElement("script");
+        script.src = src;
+        script.async = false;
+        document.head.appendChild(script);
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/style_v2.css?v=18" rel="stylesheet" type="text/css">
+    <link href="/css/style_help.css?v=20" rel="stylesheet" type="text/css">
+</head>
+<body>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJ552JD" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<header>
+    <div class="frame">
+       <a href="/" style="text-decoration:none !important;color: #2c2d37;display: block">
+            <div  class="logo" title="minerstat"></div>
+            <div style="float: left;line-height: 85px;margin-left: 15px;font-size: 20px;font-weight: 300" lang-data-ht="AMining" ></div>
+        </a>
+        <div id="hamburger"></div>
+        <nav id="menu">
+        </nav>
+    </div>
+</header>
+<div class="page help_intro">
+    <div class="frame">
+        <h1 lang-data-ht="Help center">Help center</h1>
+        <!--        <p>Answers and help from minerstat team</p>-->
+        <!--        <form method="get" action="/help/search">-->
+        <!--            <div class="row">-->
+        <!--                <label for="searchQ">Search</label>-->
+        <!--                <input type="text" id="searchQ" name="q"/>-->
+        <!--                <input type="submit" value="Search" class="icon search"/>-->
+        <!--            </div>-->
+        <!--        </form>-->
+    </div>
+</div>
+<div class="page help_content">
+    <div class="frame">
+        <h2 lang-data-ht="Help documents"></h2>
+        <div class="row">
+            <div class="element">
+                <div class="left">
+                    <a title="How to install" class="icon troubleshooting" lang-data-ht="How to install">How to
+                        install</a>
+                </div>
+                <div class="right">
+                    <a lang-data-ht="How to install"></a>
+                    <p lang-data-ht="Describes how to configure the environment and install AMining."></p>
+                    <a class="button blue" lang-data-ht="How to install"></a>
+                </div>
+            </div>
+            <div class="element">
+                <div class="left">
+                    <a class="icon mining" lang-data-ht="Mining machine overfrequency and management"></a>
+                </div>
+                <div class="right">
+                    <a lang-data-ht="Mining machine overfrequency and management"></a>
+                    <p lang-data-ht="Introducing the overclocking of the mining workers, the operation details of overfrequency operation and some basic operations."></p>
+                    <a class="button blue" lang-data-ht="Mining machine overfrequency and management"></a>
+                </div>
+            </div>
+            <div class="element">
+                <div class="left">
+                    <a class="icon dashboard" lang-data-ht="Data monitoring and charting"></a>
+                </div>
+                <div class="right">
+                    <a lang-data-ht="Data monitoring and charting"></a>
+                    <p lang-data-ht="Describes how to obtain the desired data and the corresponding chart content through the dashboard"></p>
+                    <a lang-data-ht="Data monitoring and charting" class="button blue"></a>
+                </div>
+            </div>
+        </div>
+        <h2 lang-data-ht="Help video"></h2>
+        <div class="row">
+            <div class="element" data-src="/mp4/1.mp4" style="cursor: pointer">
+                <img style="width: 100%;height: 240px" data-src="/mp4/1.mp4">
+            </div>
+            <div class="element" data-src="/mp4/2.mp4" style="cursor: pointer">
+                <img style="width: 100%;height: 240px" data-src="/mp4/2.mp4">
+            </div>
+            <div class="element" data-src="/mp4/3.mp4" style="cursor: pointer">
+                <img style="width: 100%;height: 240px" data-src="/mp4/3.mp4">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="zzcx" style="width: 100%;position: absolute;height: 100%;background-color: rgba(0,0,0,0.3);z-index: 88888;top: 0;left: 0;display: none"></div>
+<div id="vide-x" style="width: 60%;position: fixed;background-color: rgba(255,255,255,0);z-index: 88889;top: 50%;left: 50%;transform: translate(-50%,-50%);display: none">
+    <div style="z-index: 888888888;color: #fff;background-color: #2861ce;width: 20px;height: 20px;border-radius: 10px;position: absolute;right: 2px;top: 4px;cursor: pointer" title="close" id="closeIcon">×</div>
+
+</div>
+
+<script>
+    [
+        "/js/jquery.js", "/js/templates/language.js", "/js/templates/global.js?v=24","/js/templates/help.js"
+    ].forEach(function (src) {
+        var script = document.createElement("script");
+        script.src = src;
+        script.async = false;
+        document.head.appendChild(script);
+    });
+
+</script>
+
+</body>
+</html>

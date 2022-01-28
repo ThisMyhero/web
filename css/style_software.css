@@ -1,0 +1,3142 @@
+@font-face {
+    font-family: ibm plex mono;
+    font-display: fallback;
+    font-style: normal;
+    font-weight: 400;
+    src: local('IBM Plex Mono'), local('IBMPlexMono'), url(/fonts.gstatic.com/s/ibmplexmono/v4/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2) format('woff2')
+}
+
+h1 {
+    margin: 0 0 10px;
+    font-size: 38px
+}
+
+.software_page {
+    background: #f8f9fc;
+    padding: 80px 0
+}
+
+.software_page p {
+    margin: 0 auto 80px;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 1.15;
+    max-width: 600px;
+    color: #6b6d7a
+}
+
+.software_page .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.software_page .container .col_content {
+    flex: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-right: -40px
+}
+
+.software_page .container .col_content h3 {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    color: #46474f;
+    border-top: 1px solid #e2e5ef;
+    padding: 40px 0 0;
+    margin-right: 40px
+}
+
+.software_page .container .col_content .software_box {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .06);
+    width: calc(33.33% - 40px);
+    margin: 0 40px 40px 0;
+    padding: 40px;
+    transition: linear 150ms
+}
+
+.software_page .container .col_content .software_box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 50px rgba(0, 0, 0, .15)
+}
+
+.software_page .container .col_content .software_box .icon {
+    margin: -10px auto 10px
+}
+
+.software_page .container .col_content .software_box h2 {
+    font-size: 22px
+}
+
+.software_page .container .col_content .software_box p {
+    font-size: 16px;
+    color: #6b6d7a;
+    font-weight: 300;
+    margin: 0 auto 10px;
+    min-height: 60px
+}
+
+.software_page .container .col_content .software_box .buttons {
+    display: flex;
+    justify-content: center
+}
+
+.software_page .container .col_content .software_box .link {
+    background: #f8f9fc;
+    text-decoration: none;
+    color: #9b9eb1;
+    font-weight: 400;
+    font-size: 16px;
+    display: table;
+    margin: 0 0 0 5px;
+    padding: 10px 20px;
+    border-radius: 3px
+}
+
+.software_page .container .col_content .software_box .link:hover {
+    background: #52cca5;
+    color: #fff
+}
+
+.software_page .container .col_content .software_box .button {
+    padding: 10px 20px;
+    margin: 0 5px 0 0
+}
+
+.software_page .container .col_content .software_box .icon.msos {
+    width: 36px
+}
+
+.software_page .container .col_content .software_box .icon.windows {
+    width: 34px
+}
+
+.software_page .container .col_content .software_box .icon.asic {
+    width: 32px
+}
+
+.software_page .container .col_content .software_box .icon.asic_node {
+    width: 26px
+}
+
+.software_page .container .col_content .software_box .icon.locator {
+    width: 36px
+}
+
+.software_page .container .col_content .software_box .icon.ios {
+    width: 26px
+}
+
+.software_page .container .col_content .software_box .icon.android {
+    width: 26px
+}
+
+.software_one_header {
+    background: #f8f9fc;
+    padding: 120px 0;
+    text-align: left
+}
+
+.software_one_header.header_flasher {
+    padding: 80px 0
+}
+
+.software_one_header .frame {
+    position: relative
+}
+
+.software_one_header .breadcrumbs {
+    color: #6b6d7a;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 0 10px;
+    opacity: .6
+}
+
+.software_one_header .breadcrumbs a:link, .software_one_header .breadcrumbs a:visited, .software_one_header .breadcrumbs a:active {
+    color: #6b6d7a;
+    text-decoration: none;
+    margin: 0 10px 0 0
+}
+
+.software_one_header .breadcrumbs a:hover, .software_one_header .breadcrumbs a:visited:hover {
+    color: #aeb5c8
+}
+
+.software_one_header h1 {
+    font-weight: 700;
+    font-size: 48px
+}
+
+.software_one_header p {
+    margin: 0 auto 0 0;
+    font-weight: 300;
+    font-size: 18px;
+    color: #6b6d7a;
+    line-height: 1.3;
+    max-width: 400px
+}
+
+.software_one_header ul {
+    margin: 20px auto 30px 18px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #6b6d7a;
+    line-height: 1.3;
+    max-width: 400px
+}
+
+.software_one_header ul li {
+    margin: 0 0 5px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #6b6d7a;
+    line-height: 1.15;
+    max-width: 400px
+}
+
+.software_one_header .button {
+    margin: 20px auto 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 32px
+}
+
+.software_one_header .button::selection {
+    background: 0 0;
+    color: inherit
+}
+
+.software_one_header .button::-moz-selection {
+    background: 0 0;
+    color: inherit
+}
+
+.software_one_header .graphics {
+    background: 0 0;
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1)
+}
+
+.software_one_header .graphics .unclickable {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, .05)
+}
+
+.software_one_header .button .icon.arrow_down {
+    width: 16px;
+    height: 16px;
+    float: right;
+    background: url(/images/arrow_down_white.svg) no-repeat;
+    background-size: 16px 16px;
+    margin: -1px -10px 0 10px
+}
+
+.software_one_header .button .download_dropdown {
+    display: none;
+    position: absolute;
+    background: #fff;
+    top: 62px;
+    min-width: 170px;
+    left: 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .2);
+    padding: 5px;
+    z-index: 2;
+    width: 330px
+}
+
+.software_one_header .button .download_dropdown a:link, .software_one_header .button .download_dropdown a:visited, .software_one_header .button .download_dropdown a:active {
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    color: #46474f;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 15px;
+    align-items: center;
+    white-space: nowrap
+}
+
+.software_one_header .button .download_dropdown a:hover, .software_one_header .button .download_dropdown a:visited:hover {
+    background: #f8f9fc
+}
+
+.software_one_header .button .download_dropdown .icon_dropdown {
+    margin-right: 15px
+}
+
+.software_one_header .button .download_dropdown .box {
+    display: block;
+    padding: 15px 20px 20px 50px;
+    border-bottom: 1px solid #e2e5ef;
+    margin: -5px -5px 5px;
+    position: relative;
+    text-align: left;
+    cursor: default
+}
+
+.software_one_header .button .download_dropdown .box:last-child {
+    border-bottom: 0;
+    margin-bottom: -5px
+}
+
+.software_one_header .button .download_dropdown .box .icon_dropdown {
+    position: absolute;
+    left: 15px;
+    top: 15px
+}
+
+.software_one_header .button .download_dropdown .box b {
+    font-weight: 700;
+    color: #46474f;
+    font-size: 16px;
+    margin: 5px 30px 0 0;
+    display: block
+}
+
+.software_one_header .button .download_dropdown .box p {
+    font-weight: 300;
+    color: #a6a7b1;
+    font-size: 12px;
+    display: block;
+    margin: 5px 0 0;
+    min-height: 0;
+    min-width: 200px;
+    line-height: 1
+}
+
+.software_one_header .button .download_dropdown .box .links {
+    margin: 0;
+    display: flex;
+    margin: 15px 0 0
+}
+
+.software_one_header .button .download_dropdown .box .links a:link, .software_one_header .button .download_dropdown .box .links a:visited, .software_one_header .button .download_dropdown .box .links a:active {
+    background: #5767ff;
+    display: table;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 10px;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 5px;
+    border-radius: 3px
+}
+
+.software_one_header .button .download_dropdown .box .links a:hover, .software_one_header .button .download_dropdown .box .links a:visited:hover {
+    background: #52cca5;
+    color: #fff
+}
+
+.software_one_header .button .download_dropdown .box .tooltip_frame {
+    display: none;
+    position: absolute;
+    right: -15px;
+    transform: translateX(100%);
+    top: 5px;
+    width: 240px;
+    z-index: 101
+}
+
+.software_one_header .button .download_dropdown .box .tooltip {
+    background: #46474f;
+    border-radius: 3px;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2
+}
+
+.software_one_header .button .download_dropdown .box .tooltip:after {
+    position: absolute;
+    left: -6px;
+    top: 10px;
+    width: 0;
+    border-right: 6px solid #000;
+    border-right: 6px solid #46474f;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0
+}
+
+.software_one_header .button .download_dropdown .box .more_info {
+    display: block;
+    position: absolute;
+    top: 19px;
+    right: 16px;
+    background: url(/images/info.svg) no-repeat;
+    width: 16px;
+    height: 16px;
+    flex: none;
+    cursor: pointer
+}
+
+.software_one_header .button .download_dropdown .box .tooltip_frame {
+    display: none
+}
+
+.software_one_header .button .download_dropdown .box.outside_link_box {
+    padding: 5px
+}
+
+.software_one_header .button .download_dropdown .box.outside_link_box a:link, .software_one_header .button .download_dropdown .box.outside_link_box a:visited, .software_one_header .button .download_dropdown .box.outside_link_box a:active {
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #9597a4
+}
+
+.software_one_header .button .download_dropdown .divider {
+    border-bottom: 1px solid #e2e5ef;
+    margin: 5px -5px;
+    width: calc(100% + 10px);
+    height: 0
+}
+
+.software_one_header .button {
+    position: relative
+}
+
+.software_one_header .pulse {
+    animation: button_pulse 2s ease-out infinite
+}
+
+@keyframes button_pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(87, 103, 255, .5)
+    }
+    40% {
+        box-shadow: 0 0 0 15px transparent
+    }
+    100% {
+        box-shadow: 0 0 0 15px transparent
+    }
+}
+
+.software_one_content {
+    padding: 0;
+    text-align: left;
+    background: #fff
+}
+
+.software_one_content.locator_content {
+    padding: 60px 0;
+    background: #fff
+}
+
+.software_one_content.sonar_content {
+    padding: 60px 0 80px;
+    background: #fff
+}
+
+.software_one_content.flasher_content {
+    padding: 60px 0 80px;
+    background: #fff
+}
+
+.software_one_content .divider {
+    border-bottom: 1px solid #e2e5ef;
+    margin: 60px 0;
+    width: 100%;
+    height: 0
+}
+
+.software_one_content h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #46474f;
+    font-weight: 700
+}
+
+.software_one_content p {
+    text-align: left;
+    font-size: 18px;
+    color: #6b6d7a;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0 0 30px
+}
+
+.software_one_content p a:link, .software_one_content p a:visited, .software_one_content p a:active {
+    color: #6b6d7a
+}
+
+.software_one_content p a:hover, .software_one_content p a:visited:hover {
+    color: #52cca5
+}
+
+.software_one_content .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -40px;
+    width: calc(100% + 80px)
+}
+
+.software_one_content .col {
+    flex: 1;
+    text-align: left;
+    margin: 0 40px
+}
+
+.software_one_content .col .icon {
+    margin: 0 auto 20px 0
+}
+
+.software_one_content .col .button {
+    margin: 0 auto 0 0;
+    padding: 6px 18px;
+    display: inline;
+    transform-style: flat;
+    -webkit-transform-style: flat
+}
+
+.software_one_content .software_one_stats {
+    padding: 30px 0;
+    border-bottom: 1px solid #e2e5ef;
+    margin-bottom: 30px
+}
+
+.software_one_content .software_one_stats .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%
+}
+
+.software_one_content .software_one_stats .row .element {
+    flex: 2;
+    width: 120px;
+    text-align: center
+}
+
+.software_one_content .software_one_stats .row .element:first-child {
+    text-align: left;
+    flex: 1
+}
+
+.software_one_content .software_one_stats .row .element:last-child {
+    text-align: right;
+    flex: 1
+}
+
+.software_one_content .software_one_stats .row .element b {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    color: #46474f
+}
+
+.software_one_content .software_one_stats .row .element small {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6b6d7a;
+    line-height: 1.15
+}
+
+.software_one_content .table {
+    box-shadow: 0 -10px 70px rgba(0, 0, 80, .1);
+    border-radius: 5px;
+    margin-top: 84px;
+    position: relative
+}
+
+.software_one_content .table .table_row {
+    display: flex
+}
+
+.software_one_content .table .table_row .table_th {
+    flex: 2;
+    padding: 15px 30px;
+    color: #46474f;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase
+}
+
+.software_one_content .table .table_row .table_td {
+    flex: 2;
+    padding: 15px 30px;
+    color: #6b6d7a;
+    font-weight: 300;
+    border-top: 1px solid #e2e5ef;
+    line-height: 1.2
+}
+
+.software_one_content .table .table_row .table_th:first-child {
+    flex: 1;
+    background: 0 0
+}
+
+.software_one_content .table .table_row .table_td:first-child {
+    flex: 1;
+    background: #292a2d;
+    color: #fff;
+    font-weight: 800;
+    border-color: rgba(255, 255, 255, .1)
+}
+
+.software_one_content .table .table_row:nth-child(2) .table_td:first-child {
+    border-radius: 5px 0 0 0
+}
+
+.software_one_content .table .table_row:last-child .table_td:first-child {
+    border-radius: 0 0 0 5px
+}
+
+.software_one_content .table .table_row:first-child {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -44px
+}
+
+.software_one_content .table .table_row:first-child .table_th:nth-child(1) {
+    background: 0 0
+}
+
+.software_one_content .table .table_row:first-child .table_th:nth-child(2) {
+    background: #fff;
+    border-radius: 5px 0 0 0
+}
+
+.software_one_content .table .table_row:first-child .table_th:nth-child(3) {
+    background: #fff;
+    border-radius: 0 5px 0 0
+}
+
+.software_one_content .list {
+    margin: 60px 0 0
+}
+
+.software_one_content .list h3 {
+    text-align: left;
+    font-size: 22px;
+    color: #46474f;
+    font-weight: 700;
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center
+}
+
+.software_one_content .list h3 .icon_manufacturer {
+    width: 26px;
+    height: 26px;
+    background: url(/images/sprite_manufacturers.svg) no-repeat;
+    background-size: 260px 26px;
+    margin-right: 10px
+}
+
+.software_one_content .list h3 .icon_manufacturer.nvidia {
+    background-position: 0 0
+}
+
+.software_one_content .list h3 .icon_manufacturer.amd {
+    background-position: -26px 0
+}
+
+.software_one_content .list .list_items {
+    display: flex;
+    margin: 0 0 30px;
+    flex-wrap: wrap
+}
+
+.software_one_content .list .list_items .tag {
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+    padding: 10px 14px 8px;
+    border: 1px solid #e2e5ef;
+    border-radius: 3px;
+    flex: none;
+    line-height: 1;
+    color: #46474f;
+    /*cursor: pointer;*/
+    font-weight: 300
+}
+
+.software_one_content .list .list_items .tag[data-tooltip]:before {
+    bottom: calc(100% + 10px);
+    font-weight: 700
+}
+
+.software_one_content .list .list_items .tag[data-tooltip]:after {
+    bottom: calc(100% + 10px)
+}
+
+.software_one_content .list .list_items .tag.experimental {
+    border: 1px dashed #d0d5e6
+}
+
+.software_one_content .list .list_items .tag b {
+    display: block;
+    font-weight: 400
+}
+
+.software_one_content .list .list_items .tag small {
+    display: block;
+    font-weight: 300;
+    color: #6f707a;
+    font-size: 14px;
+    margin: 3px 0 0;
+    opacity: 1
+}
+
+.software_one_content .list .list_items a.tag:link, .software_one_content .list .list_items a.tag:active, .software_one_content .list .list_items a.tag:visited {
+    text-decoration: none;
+    color: #46474f
+}
+
+/*.software_one_content .list .list_items a.tag:hover, .software_one_content .list .list_items a.tag:visited:hover {*/
+/*    background: #52cca5;*/
+/*    border-color: #52cca5;*/
+/*    color: #fff*/
+/*}*/
+
+/*.software_one_content .list .list_items a.tag:hover small, .software_one_content .list .list_items a.tag:visited:hover small {*/
+/*    color: rgba(255, 255, 255, .6);*/
+/*    opacity: 1*/
+/*}*/
+
+.locator_code {
+    margin: -40px 0 0;
+    position: relative;
+    overflow: hidden;
+    padding-top: 80px;
+    text-align: left
+}
+
+.locator_code .skewed {
+    z-index: -1;
+    width: 4400px;
+    height: 1220px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -2200px;
+    background: #3f4372
+}
+
+.locator_code .code_box {
+    margin: 0 auto 120px;
+    max-width: 840px;
+    display: flex;
+    align-items: flex-start
+}
+
+.locator_code .code_box .code_content {
+    width: calc(100% - 240px);
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 20px 40px 70px 70px;
+    position: relative;
+    min-height: 478px
+}
+
+.locator_code .code_box .code_content .numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background: #f7fefc;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px 0 0 5px
+}
+
+.locator_code .code_box .code_content code {
+    background: 0 0;
+    color: #9396ad;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: baseline
+}
+
+.locator_code .code_box .code_content code span.blue {
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: #7a84e8
+}
+
+.locator_code .code_box .code_content .numbers code {
+    background: 0 0;
+    padding: 0;
+    color: #8ec7b5;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: baseline
+}
+
+.locator_code .code_box .code_content .info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    background: #fff;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .03);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 5px 5px;
+    padding: 10px 10px 10px 20px;
+    align-items: center;
+    color: #9396ad
+}
+
+.locator_code .code_box .code_content .info a:link, .locator_code .code_box .code_content .info a:visited, .locator_code .code_box .code_content .info a:active {
+    color: #9396ad
+}
+
+.locator_code .code_box .code_content .info a:hover, .locator_code .code_box .code_content .info a:visited:hover {
+    color: #52cca5
+}
+
+.locator_code .code_box .code_content .info .button {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 12px;
+    margin: 0 0 0 20px;
+    white-space: nowrap
+}
+
+.locator_code .code_box .code_menu {
+    width: 200px;
+    margin: 20px 0 0 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.locator_code .code_box .code_menu .title {
+    font-weight: 700;
+    color: #575e71;
+    font-size: 18px;
+    margin: 0 0 5px
+}
+
+.locator_code .code_box .code_menu .subtitle {
+    font-weight: 300;
+    color: #9396ad;
+    font-size: 16px;
+    line-height: 1.15;
+    margin: 0 0 10px
+}
+
+.locator_code .code_box .code_menu ul {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.locator_code .code_box .code_menu ul li {
+    display: block;
+    padding: 10px 15px;
+    margin: 10px 0 0;
+    color: #7a84e8;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.locator_code .code_box .code_menu ul li.selected {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    color: #575e71;
+    cursor: default
+}
+
+.locator_code .code_box .code_menu ul li:hover {
+    background: #f8f9fc
+}
+
+.locator_code .code_box .code_menu ul li.selected:hover {
+    background: #fff
+}
+
+.locator_code h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 20px
+}
+
+.locator_code p {
+    color: #fff;
+    opacity: .6;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 0 40px
+}
+
+.locator_code .row_cta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px
+}
+
+.locator_code .row_cta .button.green {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-align: center
+}
+
+.locator_code .row_cta .button.green .icon {
+    width: 30px;
+    height: 30px;
+    background: url(/images/sprite_buttons.svg);
+    background-size: 300px 30px;
+    margin-right: 15px
+}
+
+.locator_code .row_cta .button.green .icon.learn {
+    background-position: 0 0
+}
+
+.software_one_header .graphics.windows {
+    width: 560px;
+    height: 360px;
+    border-radius: 5px 5px 0 0;
+    clip: rect(-50px, 610px, 360px, -50px)
+}
+
+.software_one_header .graphics.windows .icon {
+    width: 20px;
+    height: 20px;
+    background: url(/images/software/sprite_icons.svg);
+    background-size: 40px 200px;
+    cursor: default
+}
+
+.software_one_header .graphics.windows .icon.logout {
+    background-position: 0 0
+}
+
+.software_one_header .graphics.windows .icon.dashboard {
+    background-position: 0 -20px
+}
+
+.software_one_header .graphics.windows .icon.config {
+    background-position: -20px 0
+}
+
+.software_one_header .graphics.windows .icon.help {
+    background-position: -20px -20px
+}
+
+.software_one_header .graphics.windows .icon.worker {
+    background-position: -20px -40px
+}
+
+.software_one_header .graphics.windows .icon.close {
+    background-position: 0 -60px
+}
+
+.software_one_header .graphics.windows .icon.minimize {
+    background-position: 0 -80px
+}
+
+.software_one_header .graphics.windows .icon.details {
+    background-position: 0 -40px
+}
+
+.software_one_header .graphics.windows .icon.ip {
+    background-position: 0 -100px
+}
+
+.software_one_header .graphics.windows .icon.byte {
+    background-position: 0 -120px
+}
+
+.software_one_header .graphics.windows .icon.error {
+    background-position: -20px -120px
+}
+
+.software_one_header .graphics.windows .icon.start {
+    background-position: 0 -140px
+}
+
+.software_one_header .graphics.windows .icon.stop {
+    background-position: -20px -140px
+}
+
+.software_one_header .graphics.windows .icon.hashrate {
+    background-position: 0 -160px
+}
+
+.software_one_header .graphics.windows .icon.earnings {
+    background-position: -20px -160px
+}
+
+.software_one_header .graphics.windows .icon.temp {
+    background-position: 0 -180px
+}
+
+.software_one_header .graphics.windows .main {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch
+}
+
+.software_one_header .graphics.windows .left {
+    width: 184px;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px 0 0 0
+}
+
+.software_one_header .graphics.windows .left .logo {
+    width: 144px;
+    height: 36px;
+    background: url(/images/logo.svg) no-repeat;
+    background-size: 144px 36px;
+    margin: 0 auto 0 0;
+    position: relative
+}
+
+.software_one_header .graphics.windows .left .logo .version {
+    font-weight: 300;
+    color: #969dae;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    letter-spacing: .5px
+}
+
+.software_one_header .graphics.windows .left .divider {
+    border-top: 1px solid #e2e5ef;
+    margin: 20px 0;
+    height: 0;
+    width: 100%
+}
+
+.software_one_header .graphics.windows .left .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap
+}
+
+.software_one_header .graphics.windows .left .row .icon {
+    margin-right: 10px
+}
+
+.software_one_header .graphics.windows .left .row .text {
+    width: calc(100% - 30px);
+    margin-bottom: 10px
+}
+
+.software_one_header .graphics.windows .left .row .text b {
+    font-weight: 700;
+    display: block;
+    margin: 2px 0;
+    font-size: 16px
+}
+
+.software_one_header .graphics.windows .left .row .text small {
+    font-weight: 300;
+    color: #969dae;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px
+}
+
+.software_one_header .graphics.windows .right {
+    width: calc(100% - 184px);
+    padding: 20px;
+    position: relative
+}
+
+.software_one_header .graphics.windows .right #icons {
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.software_one_header .graphics.windows .right #icons .icon {
+    cursor: default;
+    margin-left: 15px
+}
+
+.software_one_header .graphics.windows .right #icons .icon.minimize {
+    margin-left: auto
+}
+
+.software_one_header .graphics.windows .right .code {
+    margin: 20px 0 14px;
+    position: relative;
+    overflow: hidden;
+    height: 276px
+}
+
+.software_one_header .graphics.windows .right .code .layer1 {
+    background: rgba(248, 249, 252, .9);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 22px
+}
+
+.software_one_header .graphics.windows .right .code .layer2 {
+    background: rgba(248, 249, 252, .75);
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    left: 0;
+    right: 0;
+    height: 22px
+}
+
+.software_one_header .graphics.windows .right .code .layer3 {
+    background: rgba(248, 249, 252, .6);
+    position: absolute;
+    z-index: 1;
+    top: 44px;
+    left: 0;
+    right: 0;
+    height: 22px
+}
+
+.software_one_header .graphics.windows .right .code .layer4 {
+    background: rgba(248, 249, 252, .45);
+    position: absolute;
+    z-index: 1;
+    top: 66px;
+    left: 0;
+    right: 0;
+    height: 22px
+}
+
+.software_one_header .graphics.windows .right .code .layer5 {
+    background: rgba(248, 249, 252, .3);
+    position: absolute;
+    z-index: 1;
+    top: 88px;
+    left: 0;
+    right: 0;
+    height: 22px
+}
+
+.software_one_header .graphics.windows .right .code .layer5 {
+    background: rgba(248, 249, 252, .15);
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left: 0;
+    right: 0;
+    height: 22px
+}
+
+.software_one_header .graphics.windows .right .code code {
+    background: 0 0;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #575e71;
+    font-weight: 400;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    animation: infinite coding steps(1) 10000ms;
+    transition: none
+}
+
+.software_one_header .graphics.windows .right .code code span {
+    height: 20px;
+    display: block;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #575e71;
+    font-weight: 400
+}
+
+@keyframes coding {
+    0% {
+        top: 0
+    }
+    10% {
+        top: -20px
+    }
+    20% {
+        top: -40px
+    }
+    30% {
+        top: -60px
+    }
+    40% {
+        top: -80px
+    }
+    50% {
+        top: -100px
+    }
+    60% {
+        top: -120px
+    }
+    70% {
+        top: -140px
+    }
+    80% {
+        top: -160px
+    }
+    90% {
+        top: -180px
+    }
+    100% {
+        top: -200px
+    }
+}
+
+.software_one_header .graphics.windows6 {
+    width: 560px;
+    height: 360px;
+    border-radius: 5px 5px 0 0;
+    clip: rect(-50px, 610px, 360px, -50px)
+}
+
+.software_one_header .graphics.windows6 .icon {
+    width: 20px;
+    height: 20px;
+    background: url(/images/software/sprite_icons.svg);
+    background-size: 40px 200px;
+    cursor: default
+}
+
+.software_one_header .graphics.windows6 .icon.logout {
+    background-position: 0 0
+}
+
+.software_one_header .graphics.windows6 .icon.dashboard {
+    background-position: 0 -20px
+}
+
+.software_one_header .graphics.windows6 .icon.config {
+    background-position: -20px 0
+}
+
+.software_one_header .graphics.windows6 .icon.help {
+    background-position: -20px -20px
+}
+
+.software_one_header .graphics.windows6 .icon.worker {
+    background-position: -20px -40px
+}
+
+.software_one_header .graphics.windows6 .icon.close {
+    background-position: 0 -60px
+}
+
+.software_one_header .graphics.windows6 .icon.minimize {
+    background-position: 0 -80px
+}
+
+.software_one_header .graphics.windows6 .icon.details {
+    background-position: 0 -40px
+}
+
+.software_one_header .graphics.windows6 .icon.ip {
+    background-position: 0 -100px
+}
+
+.software_one_header .graphics.windows6 .icon.byte {
+    background-position: 0 -120px
+}
+
+.software_one_header .graphics.windows6 .icon.error {
+    background-position: -20px -120px
+}
+
+.software_one_header .graphics.windows6 .icon.start {
+    background-position: 0 -140px
+}
+
+.software_one_header .graphics.windows6 .icon.stop {
+    background-position: -20px -140px
+}
+
+.software_one_header .graphics.windows6 .icon.hashrate {
+    background-position: 0 -160px
+}
+
+.software_one_header .graphics.windows6 .icon.earnings {
+    background-position: -20px -160px
+}
+
+.software_one_header .graphics.windows6 .icon.temp {
+    background-position: 0 -180px
+}
+
+.software_one_header .graphics.windows6 .main {
+    display: block
+}
+
+.software_one_header .graphics.windows6 .main .header {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.software_one_header .graphics.windows6 .main .header .logo {
+    width: 145px;
+    height: 32px;
+    background: url(/images/myImg/logo_quan.svg) no-repeat;
+    background-size: 32px 32px;
+    margin: 0 auto 0 0;
+    position: relative
+}
+
+.software_one_header .graphics.windows6 .main .header .logo .version {
+    font-weight: 300;
+    color: #969dae;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    letter-spacing: .5px
+}
+
+.software_one_header .graphics.windows6 .main .header .iconsList {
+    margin: 0 0 0 auto;
+    display: flex
+}
+
+.software_one_header .graphics.windows6 .main .header .iconsList .icon_box {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-app-region: no-drag
+}
+
+.software_one_header .graphics.windows6 .main .header .iconsList .icon_box:hover .icon:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 2px;
+    right: 2px;
+    height: 2px;
+    width: 32px;
+    border-radius: 3px;
+    background: #5767ff
+}
+
+.software_one_header .graphics.windows6 .main .header .iconsList .icon_box[data-tooltip]:before {
+    bottom: auto;
+    top: 130%;
+    transform: none;
+    right: 2px;
+    left: auto
+}
+
+.software_one_header .graphics.windows6 .main .header .iconsList .icon_box[data-tooltip]:after {
+    bottom: auto;
+    top: 130%;
+    margin-top: -4px;
+    border-top: 0;
+    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #46474f;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    transform: none;
+    right: 13px;
+    left: auto
+}
+
+.software_one_header .graphics.windows6 .main .code {
+    padding: 20px;
+    margin: 20px 0 0;
+    position: relative;
+    overflow: hidden;
+    height: 240px
+}
+
+.software_one_header .graphics.windows6 .main .code code {
+    background: 0 0;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #575e71;
+    font-weight: 400;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    animation: infinite coding steps(1) 10000ms;
+    transition: none
+}
+
+.software_one_header .graphics.windows6 .main .code code span {
+    height: 20px;
+    display: block;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #575e71;
+    font-weight: 400
+}
+
+.software_one_header .graphics.msos {
+    width: 560px;
+    height: 360px;
+    background: #fff url(/images/graphics_msos.svg) no-repeat;
+    background-size: 560px 360px;
+    border-radius: 5px 5px 0 0
+}
+
+.software_one_header .graphics.msos .code {
+    font-family: ibm plex mono, monospace;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 20px 0 0 20px
+}
+
+.software_one_header .graphics.msos .code.info_code {
+    padding: 54px 0 0 140px
+}
+
+.software_one_header .graphics.msos .code span.blue {
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: ibm plex mono, monospace;
+    color: #889fff
+}
+
+.software_one_header .graphics.msos .code .type_effect {
+}
+
+.software_one_header .graphics.msos .code .type_effect #text_init {
+    font-family: ibm plex mono, monospace;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 2px solid #889fff;
+    animation: typing 5000ms steps(40, end), caret 1200ms step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 415px
+    }
+}
+
+@keyframes caret {
+    from, to {
+        border-color: transparent
+    }
+    70% {
+        border-color: #889fff
+    }
+}
+
+.software_one_header .graphics.asic_hub {
+    width: 560px;
+    height: 360px;
+    background: #fff url(/images/graphics_asic_hub.svg) no-repeat;
+    background-size: 560px 360px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: inset 0 -326px #292a2d
+}
+
+.software_one_header .graphics.asic_hub .code {
+    background: 0 0;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    position: relative
+}
+
+.software_one_header .graphics.asic_hub .code.info_code {
+    padding: 60px 0 0 20px
+}
+
+.software_one_header .graphics.asic_hub .code span {
+    margin-bottom: 10px;
+    display: block;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3
+}
+
+.software_one_header .graphics.asic_hub .code span.blue {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: ibm plex mono, monospace;
+    color: #889fff;
+    margin: 0;
+    word-break: break-all;
+    padding-right: 24px
+}
+
+.software_one_header .graphics.asic_hub .code .type_effect {
+    display: block;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 2px solid #889fff;
+    animation: typing_hub 5000ms steps(40, end), caret 1200ms step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0
+}
+
+@keyframes typing_hub {
+    from {
+        width: 0
+    }
+    to {
+        width: 358px
+    }
+}
+
+.software_one_header .graphics.asic_hub {
+    cursor: pointer
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code {
+    padding: 50px 0 0 20px
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .line {
+    font-size: 10px;
+    font-weight: 300;
+    opacity: .5
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box {
+    margin: 40px auto 0;
+    border: 1px solid #889fff;
+    padding: 20px;
+    width: 320px;
+    position: relative
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box .title {
+    color: #889fff;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #292a2d;
+    padding: 5px;
+    white-space: nowrap
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box p {
+    color: #fff;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box .input_field {
+    color: #fff;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #889fff;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 20px 0
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .type_effect {
+    width: 70px;
+    animation: typing_hub_nonssh 1200ms steps(9, end), caret 800ms step-end infinite
+}
+
+@keyframes typing_hub_nonssh {
+    from {
+        width: 0
+    }
+    to {
+        width: 70px
+    }
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box .confirmation_box {
+    color: #fff;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box .confirmation_box .value {
+    color: #fff;
+    font-family: ibm plex mono, courier new, Courier, monospace;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 10px
+}
+
+.software_one_header .graphics.asic_hub .code.nonssh_code .asic_box .confirmation_box .value.selected {
+    color: #889fff
+}
+
+.software_one_header .graphics.locator {
+    width: 560px;
+    height: 360px;
+    background: url(/images/graphics_locator.svg) no-repeat;
+    background-size: 560px 360px;
+    clip: rect(-50px, 610px, 360px, -140px)
+}
+
+.software_one_header .graphics.locator .unclickable {
+    left: -100px
+}
+
+.software_one_header .graphics.locator .list {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    top: 104px;
+    left: 0;
+    transform: translateX(-50%)
+}
+
+.software_one_header .graphics.locator .list .row {
+    display: flex;
+    padding: 18px;
+    border-bottom: 1px solid #e2e5ef;
+    z-index: 2
+}
+
+.software_one_header .graphics.locator .list .row .element {
+    flex: 1;
+    min-width: 90px;
+    z-index: 2
+}
+
+.software_one_header .graphics.locator .list .row .element:first-child {
+    text-align: left;
+    font-weight: 700;
+    display: flex;
+    align-items: center
+}
+
+.software_one_header .graphics.locator .list .row .element:first-child .icon_16 {
+    margin-right: 5px;
+    flex: none
+}
+
+.software_one_header .graphics.locator .list .row .element:last-child {
+    text-align: right
+}
+
+.software_one_header .graphics.locator .list .row:last-child {
+    border-bottom: 0
+}
+
+.software_one_header .graphics.locator .list .row:last-child .element:nth-child(n) {
+    text-align: center;
+    font-weight: 300;
+    opacity: .4;
+    display: block
+}
+
+.software_one_header .graphics.locator .code {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px
+}
+
+.software_one_header .graphics.locator .code .title {
+    text-align: center;
+    font-size: 20px;
+    color: #575e71;
+    font-weight: 700;
+    margin: 0 auto 10px
+}
+
+.software_one_header .graphics.locator .code p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.1;
+    opacity: .8;
+    margin: 0 auto
+}
+
+.software_one_header .graphics.locator .code .locating_animation {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 10px;
+    position: relative
+}
+
+.software_one_header .graphics.locator .code .locating_animation .pulse_1 {
+    border: 3px solid #5767ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    animation: pulse_1 2s ease-out infinite
+}
+
+.software_one_header .graphics.locator .code .locating_animation .pulse_2 {
+    border: 2px solid rgba(87, 103, 255, .5);
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    animation: pulse_2 2s ease-out infinite
+}
+
+.software_one_header .graphics.locator .code .locating_animation .pulse_3 {
+    border: 2px solid rgba(87, 103, 255, .2);
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    animation: pulse_3 2s ease-out infinite
+}
+
+.software_one_header .graphics.locator .code .locating_animation .pulse_4 {
+    border: 1px solid rgba(87, 103, 255, .1);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    animation: pulse_4 2s ease-out infinite
+}
+
+.software_one_header .graphics.sonar {
+    width: 560px;
+    height: 360px;
+    background: #3c406b;
+    border-radius: 5px 5px 0 0;
+    background-size: 560px 360px;
+    clip: rect(-50px, 610px, 360px, -150px)
+}
+
+.software_one_header .graphics.sonar .unclickable {
+    left: -100px
+}
+
+.software_one_header .graphics.sonar .sonar_frame {
+    position: absolute;
+    z-index: 2;
+    width: 260px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    top: 38px;
+    left: 0;
+    transform: translateX(-50%)
+}
+
+.software_one_header .graphics.sonar .sonar_frame .logo {
+    background: url(/images/logo_sonar.svg) no-repeat;
+    background-size: 116px 40px;
+    background-position: 0 0;
+    width: 116px;
+    height: 40px;
+    margin: 40px auto 0
+}
+
+.software_one_header .graphics.sonar .sonar_frame .title {
+    margin: 40px 0 10px;
+    font-weight: 700;
+    color: #575e71;
+    font-size: 18px;
+    text-align: center
+}
+
+.software_one_header .graphics.sonar .sonar_frame p {
+    margin: 0 auto 40px;
+    font-weight: 300;
+    color: #8d95ab;
+    font-size: 16px;
+    max-width: 360px;
+    line-height: 1.1;
+    padding: 0 20px;
+    text-align: center
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #46474f;
+    background: #f8f9fc;
+    padding: 15px 20px;
+    border-radius: 0 0 5px 5px
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status .icon_status {
+    width: 16px;
+    height: 16px;
+    background-size: 48px 16px;
+    background: url(/images/sprite_sonar_status.svg);
+    border-radius: 16px;
+    margin: 0 auto 2px
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status span {
+    font-weight: 700
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status.disconnected {
+    color: #b8bac9
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status.connected .icon_status {
+    background-position: 0 0
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status.disconnected .icon_status {
+    background-position: -16px 0
+}
+
+.software_one_header .graphics.sonar .sonar_frame .status.scanning .icon_status {
+    background-position: -32px 0;
+    animation: scanning 2s infinite linear
+}
+
+.software_one_header .graphics.sonar .code {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px
+}
+
+.software_one_header .graphics.sonar .code .logo {
+    background: url(/images/sonar_logo.svg);
+    background-size: auto;
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.software_one_header .graphics.sonar .code .title {
+    margin: -10px 0 10px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 36px;
+    text-align: center
+}
+
+.software_one_header .graphics.sonar .code .progress_bar {
+    margin: 30px auto 10px;
+    height: 4px;
+    width: 460px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, .15);
+    position: relative
+}
+
+.software_one_header .graphics.sonar .code .progress_bar .progress {
+    background: #52cca5;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden
+}
+
+.software_one_header .graphics.sonar .code .box {
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 -30px 30px rgba(0, 0, 0, .1)
+}
+
+.software_one_header .graphics.sonar .code .box .box_header {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    margin-bottom: 5px
+}
+
+.software_one_header .graphics.sonar .code .box .box_content_frame {
+    overflow-y: scroll;
+    max-height: 500px;
+    position: relative;
+    min-height: 80px
+}
+
+.software_one_header .graphics.sonar .code .box .box_content_frame .box_content {
+    max-height: 500px
+}
+
+.software_one_header .graphics.sonar .code .box .tr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #f0f2f7
+}
+
+.software_one_header .graphics.sonar .code .box .tr:last-child {
+    border-bottom: 0
+}
+
+.software_one_header .graphics.sonar .code .box .tr .th {
+    padding: 18px 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #46474f;
+    text-transform: uppercase;
+    text-align: left
+}
+
+.software_one_header .graphics.sonar .code .box .tr .th:first-child {
+    padding-left: 20px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .th:last-child {
+    padding-right: 20px;
+    text-align: left;
+    margin-left: auto
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td {
+    padding: 18px 5px;
+    text-align: left;
+    line-height: 1
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td:first-child {
+    padding-left: 20px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td:last-child {
+    padding-right: 20px;
+    text-align: left;
+    margin-left: auto
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td small {
+    font-size: 10px;
+    opacity: .5
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td .pool_info {
+    display: flex;
+    align-items: center
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td .pool_info .number {
+    background: #696fb0;
+    flex: none;
+    margin: 0 10px 0 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .td .pool_info .strat {
+    word-break: break-all;
+    padding-right: 40px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .flexPool {
+    flex: none;
+    width: 220px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .flexCoin {
+    flex: none;
+    width: 60px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .flexMin {
+    flex: none;
+    width: 60px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .flexMed {
+    flex: none;
+    width: 60px
+}
+
+.software_one_header .graphics.sonar .code .box .tr .flexMax {
+    flex: none;
+    width: 60px
+}
+
+.software_one_header .graphics.sonar .code .box .tr:nth-child(1) .td .pool_info .number {
+    background: #52cca5
+}
+
+.software_one_header .graphics.sonar .code .box .tr:nth-child(2) .td .pool_info .number {
+    background: #52ccc5
+}
+
+.software_one_header .graphics.sonar .code .box .tr:nth-child(3) .td .pool_info .number {
+    background: #52aecc
+}
+
+.software_one_header .graphics.sonar .code .box .tr:nth-child(4) .td .pool_info .number {
+    background: #528bcc
+}
+
+.software_one_header .graphics.flasher {
+    width: 560px;
+    height: 360px;
+    background: #fff url(/images/graphics_flasher.svg);
+    background-size: 560px 360px;
+    border-radius: 5px 5px 0 0;
+    top: 38px
+}
+
+.software_one_header .graphics.flasher .code {
+    font-family: ibm plex mono, monospace;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 20px 0 0 20px
+}
+
+.software_one_header .graphics.flasher .code.info_code {
+    padding: 54px 0 0 30px
+}
+
+.software_one_header .graphics.flasher .code span.blue {
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: ibm plex mono, monospace;
+    color: #889fff
+}
+
+.software_one_header .graphics.flasher .code .type_effect {
+}
+
+.software_one_header .graphics.flasher .code .type_effect #text_init {
+    font-family: ibm plex mono, monospace;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 2px solid #889fff;
+    animation: typing 5000ms steps(40, end), caret 1200ms step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0
+}
+
+.page.software_content {
+    margin: 60px 0 0;
+    padding: 60px 0;
+    background: #f8f9fc;
+    text-align: left
+}
+
+.page.software_content h1 {
+    color: #46474f;
+    font-weight: 200;
+    font-size: 34px;
+    margin: 0 auto 50px 0;
+    text-align: left
+}
+
+.page.software_content h2 {
+    color: #46474f;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px auto 10px 0;
+    text-align: left;
+    line-height: 1.15
+}
+
+.page.software_content h3 {
+    color: #46474f;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 20px auto 10px 0;
+    text-align: left
+}
+
+.page.software_content p {
+    font-size: 16px;
+    color: #41424c;
+    font-weight: 300;
+    margin: 0 0 60px;
+    line-height: 1.3;
+    text-align: left
+}
+
+.page.software_content p b {
+    font-weight: 700
+}
+
+.page.software_content ul {
+    font-size: 16px;
+    color: #41424c;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0 0 20px 40px
+}
+
+.page.software_content ul li {
+    padding-bottom: 10px
+}
+
+.page.software_content ul li:last-child {
+    padding-bottom: 0
+}
+
+.page.software_content ol {
+    font-size: 16px;
+    color: #41424c;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0 0 20px 40px
+}
+
+.page.software_content ol li {
+    padding-bottom: 10px
+}
+
+.page.software_content ol li:last-child {
+    padding-bottom: 0
+}
+
+.page.software_content img {
+    max-width: 100%;
+    height: auto
+}
+
+.page.software_content small.disclaimer {
+    display: block;
+    font-size: 12px;
+    color: silver;
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+    text-align: center;
+    border-top: 1px solid #e2e5ef;
+    text-align: left
+}
+
+.page.software_content .recommended_reading {
+}
+
+.page.software_content .recommended_reading h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.page.software_content .recommended_reading p {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #6f707a
+}
+
+.page.software_content .recommended_reading .news {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -20px
+}
+
+.page.software_content .recommended_reading .news .element {
+    padding: 20px 50px 40px 30px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+    display: flex;
+    flex: 1;
+    width: auto;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .05);
+    transition: linear 100ms
+}
+
+.page.software_content .recommended_reading .news .element:hover {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .1);
+    transform: translateY(-2px)
+}
+
+.page.software_content .recommended_reading .news .element .icon {
+    flex: none;
+    margin: 0 20px 0 0
+}
+
+.page.software_content .recommended_reading .news .element .icon.content_help {
+    background-position: -950px -50px;
+    width: 42px
+}
+
+.page.software_content .recommended_reading .news .element .icon.content_blog {
+    background-position: -1000px -50px;
+    width: 42px
+}
+
+.page.software_content .recommended_reading .news .element .icon.content_tutorials {
+    background-position: -1050px -50px;
+    width: 42px
+}
+
+.page.software_content .recommended_reading .news .element .text {
+    flex: auto
+}
+
+.page.software_content .recommended_reading .news .element .text h3 {
+    text-transform: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0 0
+}
+
+.page.software_content .recommended_reading .news .element .text p {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    margin: 5px 0 30px;
+    line-height: 1.15;
+    color: #6f707a
+}
+
+.page.software_content .recommended_reading .news .element .text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #6f707a
+}
+
+.page.software_content .recommended_reading .news .element .text ul li {
+    position: relative;
+    color: #6f707a
+}
+
+.page.software_content .recommended_reading .news .element .text ul li a:link, .page.software_content .recommended_reading .news .element .text ul li a:visited, .page.software_content .recommended_reading .news .element .text ul li a:active {
+    display: table;
+    line-height: 1.15;
+    color: #46474f;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0
+}
+
+.page.software_content .recommended_reading .news .element .text ul li a:before {
+    content: "";
+    width: 18px;
+    height: 10px;
+    position: absolute;
+    left: -26px;
+    top: 8px;
+    background: url(/images/purple_arrow.svg) no-repeat;
+    background-size: 18px 20px
+}
+
+.page.software_content .recommended_reading .news .element .text ul li a:hover, .page.software_content .recommended_reading .news .element .text ul li a:visited:hover {
+    color: #727efb
+}
+
+.page.software_content .faq {
+    margin: 60px 0 0;
+    padding: 60px 0 0;
+    border-top: 1px solid #e2e5ef
+}
+
+.page.software_content .faq h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.page.software_content .faq p {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #6f707a
+}
+
+.page.software_content .faq .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.page.software_content .faq .row .element {
+    width: calc(50% - 50px)
+}
+
+.page.software_content .faq .row .element h3 {
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    line-height: 1.15
+}
+
+.page.software_content .faq .row .element p {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    margin: 5px 0 40px;
+    line-height: 1.3;
+    color: #6f707a
+}
+
+.page.software_content .faq .row .element a:link, .page.software_content .faq .row .element a:active, .page.software_content .faq .row .element a:visited {
+    color: #6f707a
+}
+
+.page.software_content .faq .row .element a:hover, .page.software_content .faq .row .element a:visited:hover {
+    color: #52cca5
+}
+
+.register_cta.signup {
+}
+
+.comparison {
+    background: #f8f9fc;
+    padding: 60px 0;
+    margin: 60px 0
+}
+
+.comparison h2 {
+    color: #46474f;
+    font-size: 46px;
+    text-align: center;
+    margin: 0 auto 20px;
+    font-weight: 700
+}
+
+.comparison .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 830px;
+    margin: 0 auto
+}
+
+.comparison .row .comparison_title {
+    background: #868ee3;
+    background: -moz-linear-gradient(top, #868ee3 0%, #868ee3 100%);
+    background: -webkit-linear-gradient(top, #868ee3 0%, #868ee3 100%);
+    background: linear-gradient(to bottom, #868ee3 0%, #868ee3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#868ee3', endColorstr='#868ee3', GradientType=0);
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+.comparison .row .element {
+    width: 370px;
+    flex: none
+}
+
+.comparison .row .element .title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #575e71;
+    text-align: center
+}
+
+.comparison .row .element small {
+    font-size: 14px;
+    font-weight: 300;
+    color: #696d8c;
+    text-align: center;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto
+}
+
+.comparison .row .element .tag {
+    background: #52cca5;
+    background: -moz-linear-gradient(top, #52cca5 0%, #52cca5 100%);
+    background: -webkit-linear-gradient(top, #52cca5 0%, #52cca5 100%);
+    background: linear-gradient(to bottom, #52cca5 0%, #52cca5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52cca5', endColorstr='#52cca5', GradientType=0);
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    display: table;
+    margin: 10px auto 20px;
+    border-radius: 40px;
+    padding: 8px 14px
+}
+
+.comparison .row .element .divider {
+    margin: 20px 0;
+    border-color: #dbddee
+}
+
+.comparison .row .element .row {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 20px 20px 60px;
+    margin: 0 0 5px;
+    text-align: left;
+    font-weight: 400;
+    color: #575e71;
+    transition: all .2s linear;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    position: relative
+}
+
+.comparison .row .element .row .icon {
+    width: 30px;
+    height: 30px;
+    background: url(/images/sprite_software_comparison.svg) no-repeat;
+    background-size: 420px 60px;
+    position: absolute;
+    left: 15px;
+    top: 13px
+}
+
+.comparison .row .element .row .icon.installation_ssh {
+    background-position: 0 0
+}
+
+.comparison .row .element .row .icon.installation_nonssh {
+    background-position: -30px 0
+}
+
+.comparison .row .element .row .icon.crons_ssh {
+    background-position: -60px 0
+}
+
+.comparison .row .element .row .icon.crons_nonssh {
+    background-position: -90px 0
+}
+
+.comparison .row .element .row .icon.bulk_ssh {
+    background-position: -120px 0
+}
+
+.comparison .row .element .row .icon.bulk_nonssh {
+    background-position: -150px 0
+}
+
+.comparison .row .element .row .icon.config_ssh {
+    background-position: -180px 0
+}
+
+.comparison .row .element .row .icon.config_nonssh {
+    background-position: -210px 0
+}
+
+.comparison .row .element .row .icon.management_ssh {
+    background-position: -240px 0
+}
+
+.comparison .row .element .row .icon.management_nonssh {
+    background-position: -270px 0
+}
+
+.comparison .row .element .row .icon.uninstall_ssh {
+    background-position: -300px 0
+}
+
+.comparison .row .element .row .icon.uninstall_nonssh {
+    background-position: -330px 0
+}
+
+.comparison .row .element .row .icon.workeradd_ssh {
+    background-position: -360px 0
+}
+
+.comparison .row .element .row .icon.workeradd_nonssh {
+    background-position: -390px 0
+}
+
+.comparison .row .element .row:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05), 0 0 60px rgba(22, 17, 66, .1);
+    transform: scale(1.01)
+}
+
+.comparison .row .element .button.purple {
+    background: #868ee3;
+    background: -moz-linear-gradient(top, #868ee3 0%, #868ee3 100%);
+    background: -webkit-linear-gradient(top, #868ee3 0%, #868ee3 100%);
+    background: linear-gradient(to bottom, #868ee3 0%, #868ee3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#868ee3', endColorstr='#868ee3', GradientType=0);
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 14px 25px;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: 700
+}
+
+.comparison .row .element .button.purple small {
+    color: #fff;
+    display: block;
+    text-align: center;
+    opacity: .7;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.comparison .row .element .button.purple:hover {
+    background: #52cca5
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1240px) {
+    h1 {
+        font-size: 32px
+    }
+
+    .software_page p {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0 auto 40px
+    }
+
+    .software_page {
+        padding: 60px 0 0
+    }
+
+    .software_page .container .col_content {
+        margin-right: -20px
+    }
+
+    .software_page .container .col_content h3 {
+        font-size: 18px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 20px
+    }
+
+    .software_page .container .col_content .software_box {
+        padding: 30px;
+        margin: 0 20px 40px 0;
+        width: calc(33.33% - 20px)
+    }
+
+    .software_one_header {
+        padding: 100px 0 100px 20px
+    }
+
+    .software_one_header .graphics {
+        right: 40px;
+        bottom: -100px
+    }
+
+    .software_one_content .software_one_stats {
+        padding: 30px 20px
+    }
+
+    .software_one_content {
+        padding: 0 20px
+    }
+
+    .software_one_content .divider {
+        margin: 40px 0
+    }
+
+    .software_one_content.locator_content {
+        padding: 60px 20px
+    }
+
+    .software_one_content.sonar_content {
+        padding: 60px 20px
+    }
+
+    .software_one_content.flasher_content {
+        padding: 60px 20px
+    }
+
+    .register_cta.signup {
+        margin-top: 40px
+    }
+
+    .page.software_content .recommended_reading .news {
+        margin: 0 -10px
+    }
+
+    .page.software_content .recommended_reading .news .element {
+        margin: 0 10px;
+        padding: 15px 40px 40px 25px
+    }
+
+    .page.software_content .recommended_reading .news .element .icon {
+        margin-right: 15px
+    }
+
+    .page.software_content .faq .row {
+        padding: 0 40px
+    }
+
+    .comparison {
+        margin: 60px -20px
+    }
+}
+
+@media (max-width: 1100px) {
+    .software_page .container .col_content {
+        margin-right: 0;
+        flex-direction: column
+    }
+
+    .software_page .container .col_content h3 {
+        text-align: center;
+        margin-right: 0
+    }
+
+    .software_page .container .col_content .software_box {
+        width: 400px;
+        margin: 0 auto 40px;
+        padding: 30px
+    }
+
+    .software_page .container .col_content .software_box h2 {
+        font-size: 18px
+    }
+
+    .software_page .container .col_content .software_box p {
+        min-height: 0
+    }
+
+    .software_page .container .col_content .software_box .button {
+        font-size: 14px;
+        padding: 8px 14px
+    }
+
+    .software_page .container .col_content .software_box .link {
+        font-size: 14px;
+        padding: 8px 14px
+    }
+
+    .software_one_header {
+        padding: 80px 0 40px;
+        text-align: center
+    }
+
+    .software_one_header.header_flasher {
+        padding: 50px 0 20px;
+        text-align: center
+    }
+
+    .software_one_header h1 {
+        font-size: 32px
+    }
+
+    .software_one_header p {
+        font-size: 18px;
+        font-weight: 300
+    }
+
+    .software_one_header .graphics {
+        display: none
+    }
+
+    .software_one_header p {
+        margin: 0 auto 20px
+    }
+
+    .software_one_header .button {
+        margin: 0 auto 50px;
+        padding: 14px 24px
+    }
+
+    .software_one_header .button .download_dropdown {
+        top: 56px
+    }
+
+    .software_one_header ul {
+        margin: 20px auto 30px;
+        text-align: left;
+        max-width: 300px
+    }
+
+    .software_one_content .software_one_stats {
+        margin: 0 -20px 30px
+    }
+
+    .software_one_content .software_one_stats .row .element b {
+        font-size: 32px
+    }
+
+    .software_one_content .software_one_stats .row .element small {
+        font-size: 14px
+    }
+
+    .software_one_content {
+        padding: 0 20px
+    }
+
+    .software_one_content .row {
+        margin: 0 -20px;
+        width: calc(100% + 40px)
+    }
+
+    .software_one_content .col {
+        margin: 0 20px
+    }
+
+    .software_one_content h2 {
+        font-size: 22px
+    }
+
+    .software_one_content p {
+        font-size: 16px
+    }
+
+    .register_cta.signup {
+        padding-top: 80px
+    }
+
+    .comparison {
+        padding: 60px 40px
+    }
+
+    .comparison .frame {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .comparison .row .element {
+        width: calc(50% - 60px)
+    }
+
+    .comparison h2 {
+        font-size: 32px
+    }
+
+    .comparison .row .element .title {
+        font-size: 24px
+    }
+}
+
+@media (max-width: 960px) {
+    .software_one_header {
+        padding: 50px 0 10px
+    }
+
+    .locator_code .code_box {
+        margin-left: 40px;
+        margin-right: 40px
+    }
+
+    .register_cta.signup {
+        padding-top: 60px
+    }
+
+    .page.software_content .recommended_reading h2 {
+        font-size: 24px
+    }
+
+    .page.software_content .recommended_reading p {
+        font-size: 16px
+    }
+
+    .page.software_content .recommended_reading .news {
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto
+    }
+
+    .page.software_content .recommended_reading .news .element {
+        margin: 0 0 20px;
+        padding-bottom: 40px
+    }
+
+    .page.software_content .recommended_reading .news .element .text h3 {
+        font-size: 20px
+    }
+
+    .page.software_content .recommended_reading .news .element .text ul {
+        margin-left: 25px
+    }
+
+    .page.software_content .faq h2 {
+        font-size: 24px
+    }
+
+    .page.software_content .faq p {
+        font-size: 16px
+    }
+
+    .page.software_content .faq .row .element h3 {
+        font-size: 20px
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 26px
+    }
+
+    .software_one_header h1 {
+        font-size: 26px
+    }
+
+    .software_one_content .software_one_stats {
+        margin-bottom: 30px
+    }
+
+    .software_one_content .row {
+        flex-wrap: wrap;
+        margin: 20px auto 0;
+        width: 100%
+    }
+
+    .software_one_content .col {
+        width: 100%;
+        margin: 0 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content;
+        flex-start;
+        flex: none
+    }
+
+    .software_one_content .col:last-child {
+        margin-bottom: 0
+    }
+
+    .software_one_content .col .icon {
+        flex: none;
+        margin: 0 10px 0 0
+    }
+
+    .software_one_content .col h2 {
+        flex: auto;
+        margin: 15px 0 0;
+        width: calc(100% - 75px);
+        word-break: break-word
+    }
+
+    .software_one_content .col p {
+        width: 100%;
+        padding-left: 60px
+    }
+
+    .software_one_content.locator_content {
+        padding: 20px 20px 40px
+    }
+
+    .software_one_content.sonar_content {
+        padding: 20px 20px 40px
+    }
+
+    .software_one_content.flasher_content {
+        padding: 20px 20px 40px
+    }
+
+    .comparison {
+        padding: 60px 10px 10px
+    }
+
+    .comparison .row {
+        margin-top: 0
+    }
+
+    .comparison .row .comparison_title {
+        margin: 0
+    }
+
+    .comparison .row .element {
+        width: auto;
+        flex: 1;
+        margin-left: 5px;
+        margin-right: 5px
+    }
+
+    .comparison .row .element .row {
+        padding: 15px;
+        display: block;
+        text-align: center;
+        font-size: 14px
+    }
+
+    .comparison .row .element .row .icon {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 0 auto 10px
+    }
+
+    .comparison .row .element .title {
+        font-size: 22px
+    }
+
+    .comparison .row .element small {
+        font-size: 12px
+    }
+
+    .comparison .row .element .button.purple {
+        padding: 14px 0;
+        font-size: 16px
+    }
+
+    .software_one_content .table .table_row .table_th {
+        padding: 15px 20px
+    }
+
+    .software_one_content .table .table_row .table_td {
+        padding: 15px 20px
+    }
+}
+
+@media (max-width: 740px) {
+    .locator_code h2 {
+        font-size: 24px
+    }
+
+    .locator_code p {
+        font-size: 20px
+    }
+
+    .locator_code {
+        margin-top: -60px
+    }
+
+    .locator_code .skewed {
+        top: 300px
+    }
+
+    .locator_code .code_box {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 80px
+    }
+
+    .locator_code .code_box .code_menu {
+        order: 1;
+        width: 100%;
+        margin: 0 0 40px
+    }
+
+    .locator_code .code_box .code_menu .title {
+        font-size: 22px;
+        color: #46474f;
+        font-weight: 700;
+        margin-bottom: 10px
+    }
+
+    .locator_code .code_box .code_menu ul {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center
+    }
+
+    .locator_code .code_box .code_menu ul li {
+        margin: 10px 5px 0
+    }
+
+    .locator_code .code_box .code_content {
+        order: 2;
+        width: 100%;
+        text-align: left
+    }
+
+    .page.software_content .faq .row {
+        display: block;
+        padding: 0 20px
+    }
+
+    .page.software_content .faq .row .element {
+        width: 100%;
+        margin-bottom: 40px
+    }
+
+    .page.software_content .faq .row .element:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media (max-width: 660px) {
+    .software_one_header p {
+        font-size: 16px
+    }
+
+    .software_one_content .software_one_stats {
+        padding: 0 0 10px;
+        margin: 0 0 30px
+    }
+
+    .software_one_content .software_one_stats .row {
+        flex-wrap: wrap
+    }
+
+    .software_one_content .software_one_stats .row .element:nth-child(n) {
+        flex: none;
+        width: 50%;
+        text-align: center;
+        padding: 15px
+    }
+
+    .software_one_content .software_one_stats .row .element b {
+        font-size: 26px
+    }
+
+    .software_one_content .software_one_stats .row .element small {
+        font-size: 13px
+    }
+
+    .software_one_content {
+        padding: 20px 0 0
+    }
+
+    .software_one_content .list {
+        margin: 30px 0 0
+    }
+
+    .software_one_header .button .download_dropdown .box {
+        width: 270px
+    }
+
+    .software_one_header .button .download_dropdown .box b {
+        white-space: normal
+    }
+
+    .software_one_content .table .table_row .table_th:first-child {
+        flex: none;
+        width: 100px
+    }
+
+    .software_one_content .table .table_row .table_td:first-child {
+        flex: none;
+        width: 100px
+    }
+
+    .software_one_content .table .table_row .table_th:last-child {
+        padding-left: 0
+    }
+
+    .software_one_content .table .table_row .table_td:last-child {
+        padding-left: 0
+    }
+}
+
+@media (max-width: 550px) {
+    .software_page .container .col_content .software_box {
+        width: 100%
+    }
+
+    .locator_code .code_box {
+        margin: 0 0 80px
+    }
+
+    .locator_code .code_box .code_content code {
+        white-space: nowrap;
+        display: block;
+        overflow-x: scroll
+    }
+
+    .locator_code .row_cta {
+        margin: 0 auto 40px
+    }
+}
+
+@media (max-width: 390px) {
+}

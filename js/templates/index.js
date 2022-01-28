@@ -1,0 +1,10 @@
+var currentPos=3;var minPos=1;var maxPos=5;function switchTheme(theme){$('.bullet').removeClass('selected');$('#theme_'+theme).addClass('selected');$('.box > .graphics').hide();$('.box > .index_intro_'+theme).show();}
+$('.check').click(function(){$(this).toggleClass('selected');});function regNow(){if(!$('.check').hasClass('selected')){$('.message.red').html('You have to agree with the terms and privacy').show();return false;}
+if($('#email').val()==''){return false;}
+setTimeout(function(){$('.message.red').hide();var userEmail=$('#email').val();var userNonce=$('#nonce').val();var data='';$.post("/my.minerstat.com",{email:userEmail,nonce:userNonce},function(response){data=response;if(data=='1'){window.top.location.href="/my.minerstat.com";}
+if(data!='1'){$('.message.red').html(data).show();}});},125);}
+$("#email").keypress(function(e){if(e.which==13){regNow();}});$('#getStarted').click(function(){$('.popup_background').addClass('display');$('.popup').addClass('display');});$('.popup_background').click(function(){$('.popup_background').removeClass('display');$('.popup').removeClass('display');});$('#closePopup').click(function(){$('.popup_background').removeClass('display');$('.popup').removeClass('display');});$('.check2').click(function(){$(this).toggleClass('selected');});function regNow2(){if(!$('.check2').hasClass('selected')){$('.message.red').html('You have to agree with the terms and privacy').show();return false;}
+if($('#email2').val()==''){return false;}
+setTimeout(function(){$('.message.red').hide();var userEmail=$('#email2').val();var userNonce=$('#nonce').val();var data='';$.post("/my.minerstat.com",{email:userEmail,nonce:userNonce},function(response){data=response;if(data=='1'){window.top.location.href="/my.minerstat.com";}
+if(data!='1'){$('.message.red').html(data).show();}});},125);}
+$("#email2").keypress(function(e){if(e.which==13){regNow2();}});
