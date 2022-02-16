@@ -59,8 +59,8 @@ let myFolat='<footer>\n' +
     '                </div>\n' +
     '            </div>\n' +
     '            <div class="socials">\n' +
-    '                <a  href="/Contact" style="margin-right: 10px;text-decoration:none;color: #a0abbb">联系我们</a>\n' +
-    '                <a href="/help" style="margin-right: 10px;text-decoration:none;color: #a0abbb">帮助中心</a>\n' +
+    '                <a  href="/Contact" style="margin-right: 10px;text-decoration:none;color: #a0abbb">'+_mx('Contact Us')+'</a>\n' +
+    '                <a href="/help" style="margin-right: 10px;text-decoration:none;color: #a0abbb">'+_mx('Help')+'</a>\n' +
     // '                <a style="margin-right: 10px">变更日志</a>\n' +
     '             </div>\n' +
     '        </div>\n' +
@@ -169,7 +169,7 @@ function setLinkClass(){
       $('#navSoftware').addClass('selected')
   }else if(winHref=='/FAQ'){
       $('#FAQ').addClass('selected')
-  }else if(winHref=='/help'){
+  }else if(winHref=='/help'||winHref=='/help-down'||winHref=='/help-worker'||winHref=='/help-chart'){
       $('#HELP').addClass('selected')
   }else if(winHref=='/Contact'){
       $('#CUs').addClass('selected')
@@ -184,3 +184,4 @@ function downZip(type) {
     }
 }
 getHtmlLang()
+getHtmlHelpLang()

@@ -2844,7 +2844,15 @@ a.registration_banner:link, a.registration_banner:visited, a.registration_banner
     filter: alpha(opacity=60);
     opacity: .6
 }
-
+.my_a_href_btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px
+}
+.my_a_elmentx{
+    position: relative;padding-bottom: 70px!important;
+}
 @supports (-ms-overflow-style:none) {
     .ps {
         overflow: auto !important
