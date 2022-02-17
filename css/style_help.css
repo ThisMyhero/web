@@ -408,3 +408,69 @@ a.software_banner.banner_blue .button_join{background:#678af0;background:linear-
   88%, 92% { transform: translate3d(4px, 0, 0); }
   100% { transform: none; }
 }
+.loading4{
+	width:150px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.loading4 >div{
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	display:inline-block;
+	background-color: #525dff;
+	-webkit-animation: three 1.4s infinite ease-in-out;
+	animation: three 1.4s infinite ease-in-out;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.loading4 .three1{
+	-webkit-animation-delay: -0.30s;
+	animation-delay: -0.30s;
+}
+.loading4 .three2{
+	-webkit-animation-delay: -0.15s;
+	animation-delay: -0.15s;
+}
+@-webkit-keyframes three {
+	0%, 80%, 100% {-webkit-transform: scale(0.0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+@keyframes three {
+	0%, 80%, 100% {-webkit-transform: scale(0.0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+#closeIcon{
+	z-index: 888888888;
+	color: #fff;
+	background-color: #2861ce;
+	width: 26px;height: 26px;
+	border-radius: 15px;
+	position: absolute;
+	right: 2px;top: 4px;
+	cursor: pointer
+}
+#closeIcon .my_icon{
+	width: 15px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 6px;
+	background: url("/images/close.svg") no-repeat;
+	background-size: 15px 15px;
+}
+#vide-x{
+	width: 60%;
+	position: fixed;
+	background-color: rgba(255,255,255,0);
+	z-index: 88889;top: 50%;left: 50%;
+	transform: translate(-50%,-50%);display: none
+}
+@media (max-width: 600px) {
+	#vide-x{
+		width: 100%;
+		background: #000;
+	}
+}

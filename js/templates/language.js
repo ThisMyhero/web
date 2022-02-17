@@ -1,12 +1,12 @@
 
-// var langTypeS=(navigator.language || navigator.browserLanguage).toLowerCase()
+var langTypeS=(navigator.language || navigator.browserLanguage).toLowerCase()
 
-var langTypeS='zh-cn'
-if(window.location.href.split('?')[1]=='En'){
-    langTypeS=''
-}else {
-    langTypeS='zh-cn'
-}
+// var langTypeS='zh-cn'
+// if(window.location.href.split('?')[1]=='En'){
+//     langTypeS=''
+// }else {
+//     langTypeS='zh-cn'
+// }
 
 function _mx(vax) {
     for (i in langList){
