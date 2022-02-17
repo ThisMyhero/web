@@ -38,6 +38,20 @@ let myMenu='<div class="dropdown_button">\n' +
 // '<a href="/help" title="'+_mx('Help')+'">'+_mx('FAQ')+'</a>'
 
 let myFolat='<footer>\n' +
+    '<script>\n' +
+    '         (function(d, s, id, w, n) {\n' +
+    '              w.__ssc = w.__ssc || {};\n' +
+    '              w.__ssc.license = \'d14k0d6\';\n' +
+    '              if (w.ssq) return false;\n' +
+    '              n = w.ssq = function() {n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n' +
+    '              n.push=n;n.loaded=!0;n.queue=[];\n' +
+    '              var js, sjs = d.getElementsByTagName(s)[0];\n' +
+    '              if (d.getElementById(id)) return;\n' +
+    '              js = d.createElement(s); js.id = id;\n' +
+    '              js.src = \'https://assets.salesmartly.com/chat/widget/code/install.js\';\n' +
+    '              sjs.parentNode.insertBefore(js, sjs);\n' +
+    '            }(document, \'script\', \'ss-chat\', window));\n' +
+    '       </script>'+
     '    <div class="frame">\n' +
     '        <div class="col">\n' +
     '            <div class="foo_title">友情链接</div>\n' +
