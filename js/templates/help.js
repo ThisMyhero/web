@@ -1,28 +1,42 @@
 
 
 function getBol(url){
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'blob'; // or xhr.responseType = "blob";
-    xhr.send();
-    xhr.onload = function(e) {
-        if (xhr.status == 200) {
-            let str='<div style="" title="close" id="closeIcon">' +
-                '<div class="my_icon"></div></div>' +
-                '<video width="100%" height="650" loop controls="controls" autoplay="autoplay" poster="">\n' +
-                '        <source src="'+window.URL.createObjectURL(xhr.response)+'" type="video/mp4" />\n' +
-                '</video>'
+    let str='<div style="" title="close" id="closeIcon">' +
+        '<div class="my_icon"></div></div>' +
+        '<video width="100%" height="650" loop controls="controls" autoplay="autoplay" poster="">\n' +
+        '        <source src="'+url+'" type="video/mp4" />\n' +
+        '</video>'
 
-            $('#vide-x').html(str)
-            $('#vide-x').show()
+    $('#vide-x').html(str)
+    $('#vide-x').show()
 
-            $('#closeIcon').click(function (e) {
-                $('#vide-x').hide()
-                $('#vide-x').html('')
-                $('#zzcx').hide()
-            })
-        }
-    };
+    $('#closeIcon').click(function (e) {
+        $('#vide-x').hide()
+        $('#vide-x').html('')
+        $('#zzcx').hide()
+    })
+    // let xhr = new XMLHttpRequest();
+    // xhr.open('GET', url, true);
+    // xhr.responseType = 'blob'; // or xhr.responseType = "blob";
+    // xhr.send();
+    // xhr.onload = function(e) {
+    //     if (xhr.status == 200) {
+    //         let str='<div style="" title="close" id="closeIcon">' +
+    //             '<div class="my_icon"></div></div>' +
+    //             '<video width="100%" height="650" loop controls="controls" autoplay="autoplay" poster="">\n' +
+    //             '        <source src="'+window.URL.createObjectURL(xhr.response)+'" type="video/mp4" />\n' +
+    //             '</video>'
+    //
+    //         $('#vide-x').html(str)
+    //         $('#vide-x').show()
+    //
+    //         $('#closeIcon').click(function (e) {
+    //             $('#vide-x').hide()
+    //             $('#vide-x').html('')
+    //             $('#zzcx').hide()
+    //         })
+    //     }
+    // };
 }
 
 $('#zzcx').on('click',function () {
